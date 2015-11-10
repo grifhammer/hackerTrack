@@ -18,7 +18,7 @@
 			
 			<div id="Q1">
 			1) What is the difference between HTML and XTML?
-				Insert answer:
+				Insert answer: XHTML is a stricter version of HTML that requires DOCTYPE html, head, title, and body tags in addition to some other rules like mandatory nesting and requiring tags to be closed.
 				
 				
 				
@@ -26,7 +26,7 @@
 
 			<div id="Q2">
 			2) Why is it generally a good idea to position CSS links between HTML head tags and JavaScript script tags just before the html body tag? Do you know any exceptions?
-				Insert answer:			
+				Insert answer:			This helps to ensure that the links are loaded before the HTML of the body is generated. Javascript tags come after in order to run after the styles are applied but before the body is generated. If you wanted to run some code after the document loads without using $(document).ready() you can place the JS tag at the end of the body tag since the HTML is created in sequential order.
 				
 				
 
@@ -34,7 +34,7 @@
 
 			<div id="Q3">
 			3) What is the difference between classes and ID's in CSS?
-				Insert answer:
+				Insert answer: Classes are reusable and IDs aren't. Additionally classes are signified with a '.' and IDs with a '#'.
 				
 				
 
@@ -42,15 +42,14 @@
 
 			<div id="Q4">
 			4) Describe Floats and how they work.
-				Insert answer:
-				
+				Insert answer: Floats are floating point numbers. Floating point numbers actually hold 3 numbers the significand the base and the exponent. Using these three numbers you can represent a large range of numbers but will have some rounding error. (Significand * Base ^ Exponent)
 
 				
 			</div>
 
 			<div id="Q5">
 			5) What's the difference between a relative, fixed, absolute, and statically positioned element?
-				Insert answer:
+				Insert answer:	Relative positioning will be offset from its normal position, a fixed position element will take up a certain position and not move when scrolling, and absolutely positioned element will overlap with other elements in order to fill up the location that is specified for it, static positioning is normal positioning and will take up the next availiable space on the page, this is default behavior.
 				
 				
 				
@@ -61,7 +60,7 @@
 			
 			<div id="Q1">
 			1) What's the difference between "==" and "==="?
-				Insert answer:
+				Insert answer: == is the equal to operand and will check to see the value of the two sides are the same while the === operand will only be true if the value and the data type are the same
 				
 				
 				
@@ -69,7 +68,7 @@
 
 			<div id="Q2">
 			2) Have you used Sass? What's good about it?
-				Insert answer:			
+				Insert answer:			Sass allows you to use nesting when defining your CSS so that the rule inheritance is more easily visible to the reader.
 				
 				
 
@@ -77,7 +76,7 @@
 
 			<div id="Q3">
 			3) Explain how "this" works in JavaScript?
-				Insert answer:
+				Insert answer: "this" works in javascript by telling the user what the "owner" of the location you are in is. For a method it will return the object that the method is a member of, for a .each() call it will return the currently indexed element of the loop, in a global scope it will return the window.
 				
 				
 
@@ -85,7 +84,7 @@
 
 			<div id="Q4">
 			4) When would you use "document.write()?
-				Insert answer:
+				Insert answer: You can use document.write() to add content to the end of a page.
 				
 
 				
@@ -93,8 +92,7 @@
 
 			<div id="Q5">
 			5) Explain how GitHub works?
-				Insert answer:
-				
+				Insert answer:	Github is a host for git repositories. It will take a git repo on your computer and allow you to access that repo from another computer and make changes to it.
 				
 				
 			</div>	
